@@ -5,10 +5,10 @@ import timeout from "../assets/timeout.png";
 
 export const Events = () => {
   return (
-    <div className="flex flex-col items-center justify-center    text-center text-white bg-[rgba(0,50,85,1)] py-1 sm:py-16">
+    <div className="flex flex-col items-center justify-center    text-center text-white bg-[rgba(0,50,85,1)] ">
       {/* Header */}
       <div>
-        <button className="bg-[rgba(255,255,255,0.29)]  text-[10px]  px-6 py-3 font-semibold my-[6rem] sm:text-[10px] sm:px-6 sm:py-3 lg:text-[20px] lg:px-10 lg:py-4 rounded-full hover:bg-orange-600 transition">
+        <button className="bg-[rgba(255,255,255,0.29)]  text-[10px]  px-6 py-3 font-semibold my-8 lg:my-[6rem] sm:text-[10px] sm:px-6 sm:py-3 lg:text-[20px] lg:px-10 lg:py-4 rounded-full hover:bg-orange-600 transition">
           EVENTS
         </button>
       </div>
