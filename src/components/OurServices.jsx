@@ -5,14 +5,14 @@ import prayer from '../assets/prayer.jpeg'
 
 export const OurServices = () => {
   return (
-   <div className='flex flex-col align-center justify-center gap-[10rem] text-center  text-white px-[18px]  py-[100px] pb-[150px]'>
+   <div className='flex flex-col align-center justify-center gap-[5rem] lg:gap-[10rem] text-center  text-white px-[18px] py-8  lg:py-[100px] lg:pb-[150px]'>
         <div>
              <button className="bg-[rgba(0,7,182,0.04)] text-gray-700 mb-4 text-[10px] px-8 py-4 font-semibold sm:text-[10px] lg:text-lg rounded-full hover:bg-orange-600 transition">
           OUR SERVICES
         </button>
         </div>
      
-     <div className='flex flex-col gap-[170px] items-center justify-between text-white   px-12 py-[100px]) sm:gap-[176px] sm:flex-col lg:flex-row lg:gap-[10px] '>
+     <div className='flex flex-col gap-[100px] items-center justify-between text-white   px-12 py-[100px]) sm:flex-col lg:flex-row lg:gap-[10px] '>
        
         {[counselling, outreach, prayer].map((image, index) => (
       <div key={index} className="flex flex-col items-center shadow-[0px_2.06px_15.41px_0px_rgba(0,50,85,0.09)] px-8 pb-8 rounded-3xl">

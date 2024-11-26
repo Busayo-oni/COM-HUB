@@ -51,7 +51,7 @@ export const Testimonies = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center text-center text-white py-20 gap-10">
+    <div className="flex flex-col items-center justify-center text-center text-white lg:py-20 py-10 lg:gap-10">
       {/* Header */}
       <button className="bg-[rgba(0,7,182,0.04)] text-gray-700 mb-12 text-[10px] px-8 py-4 font-semibold sm:text-[10px] lg:text-lg rounded-full hover:bg-orange-600 transition">
         TESTIMONIES
@@ -68,7 +68,7 @@ export const Testimonies = () => {
             {testimonies.map((testimony, index) => (
               <div
                 key={index}
-                className="flex-none w-full flex flex-col items-center bg-white text-black p-8 rounded-xl shadow-lg gap-10 py-10"
+                className="flex-none w-full flex flex-col items-center bg-white text-black p-8 rounded-xl shadow-lg gap-5 lg:gap-10 lg:py-10"
               >
                 
                 <h2 className="text-[13px] font-semibold sm:text-[13px] lg:text-[25px] ">{testimony.title}</h2>
